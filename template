@@ -1,0 +1,10 @@
+#!/bin/bash
+#echo -e "hi: \n"
+read -r -p "Enter your file name: " file
+rm -r /scripts/$file.sh
+touch /scripts/$file.sh
+echo '# !/bin/bash' >> /scripts/$file.sh
+echo "# Creation Data: " `date -I` >> /scripts/$file.sh  
+echo "# THE USER WHO CREATE THIS FILE: " `whoami` >> /scripts/$file.sh 
+echo -e "# START # \n \n" >> /scripts/$file.sh
+echo '# END #' >> /scripts/$file.sh
