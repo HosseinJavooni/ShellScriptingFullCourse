@@ -10,7 +10,7 @@ FIRST_NAME=Javooni
 echo "Execute double quotes VAR1=$VAR1 FIRST_NAME=$FIRST_NAME whoami"
 
 #Single Quotes
-echo 'Execute double quotes VAR1=$VAR1 FIRST_NAME=$FIRST_NAME whoami'
+echo 'Execute single quotes VAR1=$VAR1 FIRST_NAME=$FIRST_NAME whoami'
 
 #Reverse Quotes
 echo "Execute double quotes VAR1=$VAR1 FIRST_NAME=$FIRST_NAME `whoami`"
